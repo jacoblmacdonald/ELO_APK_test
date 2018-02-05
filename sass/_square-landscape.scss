@@ -1,0 +1,31 @@
+#square {
+
+	.overlay.landscape {
+		top: 0;
+		height: 100vh;
+
+		&#overlay-1 {
+			left: 0;
+		}
+	}
+
+	#content.landscape {
+		width: 100vh;
+		height: 100vh;
+
+		#intro, #space-intro {
+			width: 70vh;
+			height: 70vh;
+		}
+
+		#happening-now {
+			width: 125vh;
+			height: 125vh;
+		}
+
+		#upcoming .events-slider .slide-content {
+			width: 65vh;
+			height: 65vh;
+		}
+	}
+}

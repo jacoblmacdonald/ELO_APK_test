@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.beaconesi.shift"
+        version     = "1.0.0" >
+
+    <name>Elo Test</name>
+
+    <description>
+       Testing Elo APK Content
+    </description>
+
+    <author href="http://www.esidesign.com" email="jmacdonald@esidesign.com">
+       ESI Design
+    </author>
+
+</widget>

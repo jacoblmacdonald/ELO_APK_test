@@ -1,0 +1,586 @@
+@font-face {
+  font-family: "Libre";
+  src: url("../assets/fonts/libre/LibreBaskerville-Regular.eot");
+  src: url("../assets/fonts/libre/LibreBaskerville-Regular?#iefix") format("embedded-opentype"), url("../assets/fonts/libre/LibreBaskerville-Regular.woff2") format("woff2"), url("../assets/fonts/libre/LibreBaskerville-Regular.woff") format("woff"), url("../assets/fonts/libre/LibreBaskerville-Regular.ttf") format("truetype"), url("../assets/fonts/libre/LibreBaskerville-Regular.svg#LibreBaskerville-Regular") format("svg");
+}
+
+@font-face {
+  font-family: "Libre Bold";
+  src: url("../assets/fonts/libre/LibreBaskerville-Bold.eot");
+  src: url("../assets/fonts/libre/LibreBaskerville-Bold?#iefix") format("embedded-opentype"), url("../assets/fonts/libre/LibreBaskerville-Bold.woff2") format("woff2"), url("../assets/fonts/libre/LibreBaskerville-Bold.woff") format("woff"), url("../assets/fonts/libre/LibreBaskerville-Bold.ttf") format("truetype"), url("../assets/fonts/libre/LibreBaskerville-Bold.svg#LibreBaskerville-Bold") format("svg");
+}
+
+@font-face {
+  font-family: "Libre Italic";
+  src: url("../assets/fonts/libre/LibreBaskerville-Italic.eot");
+  src: url("../assets/fonts/libre/LibreBaskerville-Italic?#iefix") format("embedded-opentype"), url("../assets/fonts/libre/LibreBaskerville-Italic.woff2") format("woff2"), url("../assets/fonts/libre/LibreBaskerville-Italic.woff") format("woff"), url("../assets/fonts/libre/LibreBaskerville-Italic.ttf") format("truetype"), url("../assets/fonts/libre/LibreBaskerville-Italic.svg#LibreBaskerville-Italic") format("svg");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/poppins/Poppins-Regular.eot");
+  src: url("../assets/fonts/poppins/Poppins-Regular?#iefix") format("embedded-opentype"), url("../assets/fonts/poppins/Poppins-Regular.woff2") format("woff2"), url("../assets/fonts/poppins/Poppins-Regular.woff") format("woff"), url("../assets/fonts/poppins/Poppins-Regular.ttf") format("truetype"), url("../assets/fonts/poppins/Poppins-Regular.svg#Poppins-Regular") format("svg");
+}
+
+@font-face {
+  font-family: "Poppins Light";
+  src: url("../assets/fonts/poppins/Poppins-Light.eot");
+  src: url("../assets/fonts/poppins/Poppins-Light?#iefix") format("embedded-opentype"), url("../assets/fonts/poppins/Poppins-Light.woff2") format("woff2"), url("../assets/fonts/poppins/Poppins-Light.woff") format("woff"), url("../assets/fonts/poppins/Poppins-Light.ttf") format("truetype"), url("../assets/fonts/poppins/Poppins-Light.svg#Poppins-Light") format("svg");
+}
+
+@font-face {
+  font-family: "Poppins Medium";
+  src: url("../assets/fonts/poppins/Poppins-Medium.eot");
+  src: url("../assets/fonts/poppins/Poppins-Medium?#iefix") format("embedded-opentype"), url("../assets/fonts/poppins/Poppins-Medium.woff2") format("woff2"), url("../assets/fonts/poppins/Poppins-Medium.woff") format("woff"), url("../assets/fonts/poppins/Poppins-Medium.ttf") format("truetype"), url("../assets/fonts/poppins/Poppins-Medium.svg#Poppins-Medium") format("svg");
+}
+
+@font-face {
+  font-family: "Poppins SemiBold";
+  src: url("../assets/fonts/poppins/Poppins-SemiBold.eot");
+  src: url("../assets/fonts/poppins/Poppins-SemiBold?#iefix") format("embedded-opentype"), url("../assets/fonts/poppins/Poppins-SemiBold.woff2") format("woff2"), url("../assets/fonts/poppins/Poppins-SemiBold.woff") format("woff"), url("../assets/fonts/poppins/Poppins-SemiBold.ttf") format("truetype"), url("../assets/fonts/poppins/Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
+}
+
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("../assets/fonts/poppins/Poppins-Bold.eot");
+  src: url("../assets/fonts/poppins/Poppins-Bold?#iefix") format("embedded-opentype"), url("../assets/fonts/poppins/Poppins-Bold.woff2") format("woff2"), url("../assets/fonts/poppins/Poppins-Bold.woff") format("woff"), url("../assets/fonts/poppins/Poppins-Bold.ttf") format("truetype"), url("../assets/fonts/poppins/Poppins-Bold.svg#Poppins-Bold") format("svg");
+}
+
+/* line 87, ../sass/_fonts.scss */
+.serif {
+  font-family: "Libre", serif;
+}
+/* line 90, ../sass/_fonts.scss */
+.serif.bold {
+  font-family: "Libre Bold", serif;
+  font-weight: 900;
+}
+/* line 95, ../sass/_fonts.scss */
+.serif.italic {
+  font-family: "Libre Italic", serif;
+}
+
+/* line 100, ../sass/_fonts.scss */
+.sans {
+  font-family: "Poppins Light", sans-serif;
+}
+/* line 103, ../sass/_fonts.scss */
+.sans.bold {
+  font-family: "Poppins Bold", sans-serif;
+}
+
+/* line 108, ../sass/_fonts.scss */
+html {
+  font-size: 16px;
+}
+
+/* line 112, ../sass/_fonts.scss */
+.tiniest-text {
+  font-size: 0.5rem;
+}
+
+/* line 116, ../sass/_fonts.scss */
+.tiny-text {
+  font-size: 0.75rem;
+}
+
+/* line 120, ../sass/_fonts.scss */
+.small-text {
+  font-size: 1rem;
+}
+
+/* line 124, ../sass/_fonts.scss */
+.med-text {
+  font-size: 1.25rem;
+}
+
+/* line 128, ../sass/_fonts.scss */
+.med-large-text {
+  font-size: 1.75rem;
+}
+
+/* line 132, ../sass/_fonts.scss */
+.large-text {
+  font-size: 2rem;
+}
+
+/* line 136, ../sass/_fonts.scss */
+.xlarge-text {
+  font-size: 3rem;
+}
+
+/* line 140, ../sass/_fonts.scss */
+.xxl-text {
+  font-size: 4rem;
+}
+
+/* line 144, ../sass/_fonts.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 148, ../sass/_fonts.scss */
+.wide {
+  letter-spacing: 3px;
+}
+
+/* line 152, ../sass/_fonts.scss */
+.wider {
+  letter-spacing: 5px;
+}
+
+/* line 1, ../sass/_global.scss */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 1px;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+/* line 9, ../sass/_global.scss */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* line 14, ../sass/_global.scss */
+body {
+  overflow: hidden;
+}
+
+/* line 18, ../sass/_global.scss */
+#full, #square {
+  background-color: black;
+}
+/* line 21, ../sass/_global.scss */
+#full #content, #square #content {
+  width: 100vw;
+  background-color: white;
+}
+
+@keyframes brand-outer {
+  /* line 33, ../sass/_brand-animation.scss */
+  0% {
+    transform: scale(0);
+  }
+
+  /* line 34, ../sass/_brand-animation.scss */
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes brand-middle {
+  /* line 38, ../sass/_brand-animation.scss */
+  0% {
+    transform: scale(0);
+  }
+
+  /* line 39, ../sass/_brand-animation.scss */
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes brand-inner {
+  /* line 43, ../sass/_brand-animation.scss */
+  0% {
+    transform: scale(0);
+  }
+
+  /* line 44, ../sass/_brand-animation.scss */
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fade-in {
+  /* line 48, ../sass/_brand-animation.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 49, ../sass/_brand-animation.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes brand-outer-reverse {
+  /* line 53, ../sass/_brand-animation.scss */
+  0% {
+    transform: scale(0);
+  }
+
+  /* line 54, ../sass/_brand-animation.scss */
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes brand-middle-reverse {
+  /* line 58, ../sass/_brand-animation.scss */
+  0% {
+    transform: scale(0);
+  }
+
+  /* line 59, ../sass/_brand-animation.scss */
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes brand-inner-reverse {
+  /* line 63, ../sass/_brand-animation.scss */
+  0% {
+    transform: scale(0);
+  }
+
+  /* line 64, ../sass/_brand-animation.scss */
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fade-in-reverse {
+  /* line 68, ../sass/_brand-animation.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 69, ../sass/_brand-animation.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 72, ../sass/_brand-animation.scss */
+.brand-animation {
+  position: relative;
+}
+/* line 75, ../sass/_brand-animation.scss */
+.brand-animation .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 20px 70px 20px #eeeeee;
+  border-radius: 50%;
+  background-color: white;
+}
+/* line 83, ../sass/_brand-animation.scss */
+.brand-animation .layer.outer-layer {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transform: scale(0);
+  animation: brand-outer 5s 0.4s cubic-bezier(0, 1.53, 0.385, 1.005) forwards;
+}
+/* line 92, ../sass/_brand-animation.scss */
+.brand-animation .layer.middle-layer {
+  width: 75%;
+  height: 75%;
+  margin: 12.5%;
+  z-index: 3;
+  transform: scale(0);
+  animation: brand-middle 5s 0.2s cubic-bezier(0, 1.53, 0.385, 1.005) forwards;
+}
+/* line 102, ../sass/_brand-animation.scss */
+.brand-animation .layer.inner-layer {
+  width: 50%;
+  height: 50%;
+  margin: 25%;
+  z-index: 4;
+  transform: scale(0);
+  animation: brand-inner 5s 0s cubic-bezier(0, 1.53, 0.385, 1.005) forwards;
+}
+/* line 113, ../sass/_brand-animation.scss */
+.brand-animation .animation-content {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  margin: 25%;
+  opacity: 0;
+  animation: fade-in 2.5s 0.8s ease-in-out forwards;
+  z-index: 5;
+}
+/* line 127, ../sass/_brand-animation.scss */
+.brand-animation.wait .layer.outer-layer, .brand-animation.wait .layer.middle-layer, .brand-animation.wait .layer.inner-layer {
+  animation: none;
+}
+/* line 132, ../sass/_brand-animation.scss */
+.brand-animation.wait .animation-content {
+  animation: none;
+}
+/* line 141, ../sass/_brand-animation.scss */
+.brand-animation.reverse .layer.outer-layer {
+  animation-name: brand-outer-reverse;
+}
+/* line 145, ../sass/_brand-animation.scss */
+.brand-animation.reverse .layer.middle-layer {
+  animation-name: brand-middle-reverse;
+}
+/* line 149, ../sass/_brand-animation.scss */
+.brand-animation.reverse .layer.inner-layer {
+  animation-name: brand-inner-reverse;
+}
+/* line 153, ../sass/_brand-animation.scss */
+.brand-animation.reverse .layer.outer-layer, .brand-animation.reverse .layer.middle-layer, .brand-animation.reverse .layer.inner-layer {
+  transform: scale(1);
+  animation-direction: reverse;
+  animation-duration: 2.5s;
+}
+/* line 160, ../sass/_brand-animation.scss */
+.brand-animation.reverse .animation-content {
+  opacity: 1;
+  animation-name: fade-in-reverse;
+  animation-direction: reverse;
+  animation-duration: 1s;
+}
+/* line 170, ../sass/_brand-animation.scss */
+.brand-animation.large .layer {
+  box-shadow: 0px 20px 80px 40px #eeeeee;
+}
+/* line 173, ../sass/_brand-animation.scss */
+.brand-animation.large .layer.middle-layer {
+  width: 85%;
+  height: 85%;
+  margin: 7.5%;
+}
+/* line 179, ../sass/_brand-animation.scss */
+.brand-animation.large .layer.inner-layer {
+  width: 70%;
+  height: 70%;
+  margin: 15%;
+}
+/* line 186, ../sass/_brand-animation.scss */
+.brand-animation.large .animation-content {
+  width: 70%;
+  height: 70%;
+  margin: 15%;
+}
+/* line 197, ../sass/_brand-animation.scss */
+.brand-animation.tight .layer.middle-layer {
+  width: 85%;
+  height: 85%;
+  margin: 7.5%;
+}
+/* line 203, ../sass/_brand-animation.scss */
+.brand-animation.tight .layer.inner-layer {
+  width: 70%;
+  height: 70%;
+  margin: 15%;
+}
+/* line 210, ../sass/_brand-animation.scss */
+.brand-animation.tight .animation-content {
+  width: 70%;
+  height: 70%;
+  margin: 15%;
+}
+
+/* line 4, ../sass/_items.scss */
+#items {
+  position: relative;
+  transition: opacity 1s ease-in-out;
+}
+/* line 8, ../sass/_items.scss */
+#items .item {
+  position: absolute;
+  transition: opacity 1s ease-in-out, transform 1.25s cubic-bezier(0.18, 0.75, 0.285, 0.85);
+}
+/* line 14, ../sass/_items.scss */
+#items .item.hidden {
+  opacity: 0;
+}
+/* line 18, ../sass/_items.scss */
+#items .item.unused {
+  display: none;
+}
+
+/* line 3, ../sass/_square.scss */
+#square * {
+  pointer-events: none;
+}
+/* line 7, ../sass/_square.scss */
+#square .overlay {
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  background-color: black;
+  z-index: 10000;
+}
+/* line 14, ../sass/_square.scss */
+#square .overlay#overlay-1 {
+  top: 0;
+}
+/* line 19, ../sass/_square.scss */
+#square #content {
+  height: 100vw;
+  position: relative;
+}
+/* line 23, ../sass/_square.scss */
+#square #content #intro, #square #content #space-intro {
+  width: 70vw;
+  height: 70vw;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 31, ../sass/_square.scss */
+#square #content #intro .brand-animation, #square #content #space-intro .brand-animation {
+  height: 100%;
+}
+/* line 34, ../sass/_square.scss */
+#square #content #intro .brand-animation.wait, #square #content #space-intro .brand-animation.wait {
+  opacity: 0;
+}
+/* line 40, ../sass/_square.scss */
+#square #content #intro .brand-animation .animation-content svg {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  padding: 20%;
+}
+/* line 48, ../sass/_square.scss */
+#square #content #space-intro .brand-animation .animation-content .content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+/* line 55, ../sass/_square.scss */
+#square #content #space-intro .brand-animation .animation-content .content .logo {
+  padding: 0 30%;
+}
+/* line 60, ../sass/_square.scss */
+#square #content #happening-now {
+  width: 125vw;
+  height: 125vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 68, ../sass/_square.scss */
+#square #content #happening-now .brand-animation {
+  height: 100%;
+}
+/* line 71, ../sass/_square.scss */
+#square #content #happening-now .brand-animation .content {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 76, ../sass/_square.scss */
+#square #content #happening-now .brand-animation .content .image {
+  width: 40%;
+  margin: 32.5% auto 10%;
+}
+/* line 81, ../sass/_square.scss */
+#square #content #happening-now .brand-animation .content .title {
+  line-height: 4.5rem;
+}
+/* line 85, ../sass/_square.scss */
+#square #content #happening-now .brand-animation .content .date {
+  margin: 10% 0 1%;
+  line-height: 3.5rem;
+}
+/* line 91, ../sass/_square.scss */
+#square #content #happening-now .brand-animation.wait {
+  opacity: 0;
+}
+/* line 99, ../sass/_square.scss */
+#square #content #upcoming .header {
+  height: 20%;
+  padding: 3% 0;
+  text-align: center;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+/* line 105, ../sass/_square.scss */
+#square #content #upcoming .header .logo {
+  width: 20%;
+  margin: 0 auto;
+}
+/* line 110, ../sass/_square.scss */
+#square #content #upcoming .header .title {
+  margin-top: 1%;
+}
+/* line 114, ../sass/_square.scss */
+#square #content #upcoming .header.wait {
+  opacity: 0;
+  transform: translateY(50px);
+}
+/* line 120, ../sass/_square.scss */
+#square #content #upcoming .events-slider {
+  height: 80%;
+}
+/* line 123, ../sass/_square.scss */
+#square #content #upcoming .events-slider .event {
+  position: relative;
+  outline: none;
+}
+/* line 127, ../sass/_square.scss */
+#square #content #upcoming .events-slider .event .slide-content {
+  width: 65vw;
+  height: 65vw;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 135, ../sass/_square.scss */
+#square #content #upcoming .events-slider .event .slide-content .brand-animation {
+  height: 100%;
+}
+/* line 138, ../sass/_square.scss */
+#square #content #upcoming .events-slider .event .slide-content .brand-animation .content {
+  width: 100%;
+  padding: 5%;
+  text-align: center;
+}
+/* line 143, ../sass/_square.scss */
+#square #content #upcoming .events-slider .event .slide-content .brand-animation .content .icon {
+  height: 25%;
+  margin: 10% auto 3%;
+}
+/* line 148, ../sass/_square.scss */
+#square #content #upcoming .events-slider .event .slide-content .brand-animation .content .title {
+  line-height: 3rem;
+  margin-bottom: 3%;
+}
+/* line 154, ../sass/_square.scss */
+#square #content #upcoming .events-slider .event .slide-content .brand-animation.wait {
+  opacity: 0;
+}
+
+/* line 3, ../sass/_square-landscape.scss */
+#square .overlay.landscape {
+  top: 0;
+  height: 100vh;
+}
+/* line 7, ../sass/_square-landscape.scss */
+#square .overlay.landscape#overlay-1 {
+  left: 0;
+}
+/* line 12, ../sass/_square-landscape.scss */
+#square #content.landscape {
+  width: 100vh;
+  height: 100vh;
+}
+/* line 16, ../sass/_square-landscape.scss */
+#square #content.landscape #intro, #square #content.landscape #space-intro {
+  width: 70vh;
+  height: 70vh;
+}
+/* line 21, ../sass/_square-landscape.scss */
+#square #content.landscape #happening-now {
+  width: 125vh;
+  height: 125vh;
+}
+/* line 26, ../sass/_square-landscape.scss */
+#square #content.landscape #upcoming .events-slider .slide-content {
+  width: 65vh;
+  height: 65vh;
+}

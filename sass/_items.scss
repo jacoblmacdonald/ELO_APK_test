@@ -1,0 +1,22 @@
+$explode-time: 1.25s;
+$explode-easing: cubic-bezier(0.180, 0.750, 0.285, 0.850);
+
+#items {
+	position: relative;
+	transition: opacity 1s ease-in-out;
+
+	.item {
+		position: absolute;
+		// transform: translate(-50%, -50%);
+		// transition: opacity 1s ease-in-out, left $explode-time $explode-easing, top $explode-time $explode-easing;
+		transition: opacity 1s ease-in-out, transform $explode-time $explode-easing;
+
+		&.hidden {
+			opacity: 0;
+		}
+
+		&.unused {
+			display: none;
+		}
+	}
+}
