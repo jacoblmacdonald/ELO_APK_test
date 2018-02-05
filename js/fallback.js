@@ -1,6 +1,10 @@
+window.onload = function() { alert("1"); };
+
 $(window).on("load", function() {
-	runAnimation();
-	$("body").click(function() { window.location.reload(); });
+	alert("hi");
+	$(".hidden").removeClass("hidden");
+	// runAnimation();
+	// $("body").click(function() { window.location.reload(); });
 });
 
 function runAnimation() {
