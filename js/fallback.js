@@ -1,7 +1,7 @@
 $(window).on("load", function() {
-	$(".hidden").removeClass("hidden");
-	// runAnimation();
-	// $("body").click(function() { window.location.reload(); });
+	// $(".hidden").removeClass("hidden");
+	runAnimation();
+	$("body").click(function() { window.location.reload(); });
 });
 
 function runAnimation() {
